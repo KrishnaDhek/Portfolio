@@ -12,10 +12,161 @@
 </head>
 <body>
     <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
         <nav>
-            
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#" class="button">Contact Me</a></li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();"> <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+</svg>
+</a>
         </nav>
     </header>
+
+
+    <main>
+
+        <section class="hero container">
+    <div class="hero-blue">
+        <h1><small>Hi I'm</small> Krishna Dhek</h1>
+        <p>
+            Passionate Front-End Developer with a strong foundation in JavaScript, HTML, and CSS. Skilled in building
+            dynamic, responsive, and user-friendly web applications. Focused on writing clean, maintainable code and
+            implementing best development practices.
+        </p>
+        <div class="call-to-action">
+            <a href="#" class="button black">View Resume</a>
+            <a href="#" class="button white">Contact Me</a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/KrishnaDhek" target="_blank">
+                <img src="./Images/github.png" alt="GitHub" width="48">
+            </a>
+            <a href="#">
+                <img src="./Images/linkedin.png" alt="LinkedIn" width="48">
+            </a>
+        </div>
+    </div>
+    <div class="hero-yellow">
+        <img src="./Images/profile-removebg-preview (1).png" alt="Krishna Dhek" width="100%">
+    </div>
+</section>
+
+
+    <section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./Images/html.png" alt="HTML" width="128" />
+					<img src="./Images/css.png" alt="CSS" width="128" />
+					<img src="./Images/javascript.png" alt="JS" width="128" />
+                    <img src="./Images/java.png" width="128" alt="Python" />
+					<img src="./Images/vscode.png" width="128" alt="VS Code" />
+                    <img src="./Images/html.png" alt="HTML" width="128" />
+					<img src="./Images/css.png" alt="CSS" width="128" />
+					<img src="./Images/javascript.png" alt="JS" width="128" />
+                    <img src="./Images/java.png" width="128" alt="Python" />
+					<img src="./Images/vscode.png" width="128" alt="VS Code" />
+                    <img src="./Images/html.png" alt="HTML" width="128" />
+					<img src="./Images/css.png" alt="CSS" width="128" />
+					<img src="./Images/javascript.png" alt="JS" width="128" />
+                    <img src="./Images/java.png" width="128" alt="Python" />
+					<img src="./Images/vscode.png" width="128" alt="VS Code" />
+					
+				</div>
+			</div>
+		</section>
+        <section id="skills" class="skills container">
+    <h2>
+        <small>About Me</small>
+        Skills
+    </h2>
+    <div class="holder-blue">
+        <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS (Flexbox, Grid, Animations, Tailwind CSS)</li>
+                <li>JavaScript (ES6+, DOM Manipulation, Fetch API)</li>
+                <li>Frontend Performance Optimization</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+                <li>Java (Core, OOP, DSA, Spring Boot - Basic)</li>
+                <li>Database Management (MySQL, MongoDB - Basic)</li>
+            </ul>
+            <h3>Other Skills</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>REST API Integration</li>
+                <li>Deployment (Netlify)</li>
+                <li>Debugging & Code Optimization</li>
+            </ul>
+        </div>
+        <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+                Hi, I'm Krishna Dhek, a passionate front-end developer with a strong foundation in JavaScript, HTML, and CSS. I love creating dynamic, user-friendly, and responsive web applications.
+            </p>
+            <p>
+                I have hands-on experience building clones of YouTube, Gmail, and UI projects. Currently, I'm focusing on JavaScript projects, exploring real-world concepts like payment gateway integration, session handling, and front-end security.
+            </p>
+            <p>
+                My goal is to develop **industry-level** projects that follow best coding practices and showcase my expertise. I am also working on a **Miro clone**, integrating AI features to enhance user experience.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="work-experience container">
+    <h2>
+        <small>Recent</small>
+        Work Experience
+    </h2>
+    <div class="jobs">
+        <article>
+            <figure>
+                <div>
+                    <img src="./Images/rattle.png" alt="Workplace 1 - Rattle" width="100%" />
+                    <figcaption>
+                        Workplace - Rattle
+                    </figcaption>
+                </div>
+            </figure>
+            <h3>QA Intern</h3>
+            <div>Apr 2024 - Nov 2024</div>
+            <p>Conducted comprehensive end-to-end testing of Salesforce integration features, ensuring seamless interaction within Slack and Teams.</p>
+            <p>Developed and executed test plans and test cases to validate various functionalities.</p>
+            <p>Collaborated with the development team to identify, report, and track bugs and issues, contributing to product stability.</p>
+        </article>
+
+        <article>
+            <figure>
+                <div>
+                    <img src="./Images/ali.png" alt="Workplace 2 - Acer Labs Inc" width="100%" />
+                    <figcaption>
+                        Workplace - Acer Labs Inc
+                    </figcaption>
+                </div>
+            </figure>
+            <h3>Junior Engineer</h3>
+            <div>Jul 2022 - Dec 2022</div>
+            <p>Developed backend for CAS (Conditional Access System) and OTA updates.</p>
+            <p>Automated firmware burning using C for proprietary SoCs.</p>
+        </article>
+    </div>
+</section>
+
+
+
+
+        
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
