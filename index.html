@@ -16,22 +16,27 @@
   <body>
     <header>
       <a href="#" class="logo-holder">
-        <div class="logo">L</div>
+        <div class="logo">
+            <img src="./assets/K.png" alt="logo" width="64px">
+        </div>
         <div class="logo-text">Portfolio Website</div>
       </a>
       <nav>
         <ul id="menu">
           <li>
-            <a href="#">Home</a>
+            <a href="#about">Home</a>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#" class="button">Content Me</a>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="mailto:dhekkrishna02@gmail.com" class="button">Content Me</a>
           </li>
         </ul>
         <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
@@ -57,7 +62,7 @@
 
     <main>
       <section class="hero container">
-        <div class="hero-blue">
+        <div class="hero-blue" id="about">
           <div>
             <h1><small>Hi I'm </small>Krishna Dhek</h1>
 
@@ -69,7 +74,7 @@
             </p>
             <div class="call-to-action">
               <a href="#" class="button black"> View Resume </a>
-              <a href="#" class="button white"> Contact Me </a>
+              <a href="mailto:dhekkrishna02@gmail.com" class="button white"> Contact Me </a>
             </div>
             <div class="social-links">
               <a href="https://github.com/KrishnaDhek">
@@ -115,7 +120,7 @@
           </div>
         </div>
       </section>
-      <section class="skills container">
+      <section class="skills container" id="skills">
         <h2>
           <small>About Me</small>
           Skills
@@ -161,7 +166,7 @@
           </div>
         </div>
       </section>
-      <section class="work-experience container">
+      <section class="work-experience container" id="experience">
         <h2>
           <small>Recent</small>
           Work Experience
@@ -189,37 +194,58 @@
               Designed and implemented comprehensive test strategies, including
               functional, regression, and performance testing. Acted as a bridge
               between QA and Development teams, ensuring seamless communication
-              and alignment of goals. ␣ Led Agile ceremonies, including sprint
+              and alignment of goals. Participated Agile ceremonies, including sprint
               planning, daily stand-ups, and retrospectives to optimize
               workflows.
             </p>
           </article>
         </div>
       </section>
-     <section class="bento">
+     <section class="bento container" id="projects">
         <h2>
           Projects
         </h2>
         <div class="bento-grid">
-            <div class="bento-item">
+            <a class="bento-item" href="https://steady-centaur-b46c0e.netlify.app/" target="_blank">
                 <img src="./assets/project4.png" width="100%" alt="">
-            </div>
-            <div class="bento-item">
+            </a>
+            <a class="bento-item" href="https://chipper-choux-54f45d.netlify.app/" target="_blank">
                 <img src="./assets/project3.png" width="100%" alt="">
-            </div>
-            <div class="bento-item">
+            </a>
+            <a class="bento-item" href="https://radiant-chimera-f80273.netlify.app/" target="_blank">
                 <img src="./assets/project2.1.png"  width="100%" alt="">
-            </div>
-            <div class="bento-item">
+            </a>
+            <a class="bento-item" href="https://krishnadhek.github.io/Gmail-Clone/" target="_blank">
                 <img src="./assets/Project1.png"  width="100%" alt="">
-            </div>
-            <div class="bento-item">
+            </a>
+            <a class="bento-item" href="https://capable-meringue-dcc754.netlify.app/" target="_blank">
                 <img src="./assets/desktop-design.png"  width="100%" alt="">
-            </div>
+            </a>
             
         </div>
      </section> 
     </main>
+        <footer class="footer">
+            
+      <div class="footer-container">
+        
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="mailto:dhekkrishna02@gmail.com">Contact</a></li>
+          </ul>
+        <p>© 2025 Krishna Dhek | Frontend Developer</p>
+        <div class="social-links">
+          <a href="https://github.com/KrishnaDhek">
+            <img src="./assets/github.png" alt="GitHub" width="32px" />
+          </a>
+          <a href="https://www.linkedin.com/in/krishna-dhek/">
+            <img src="./assets/linkedin.png" alt="LinkedIn" width="32px" />
+          </a>
+        </div>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
