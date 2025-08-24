@@ -326,7 +326,7 @@ h3 {
   }
 }
 
-.work-experience {
+/* .work-experience {
   .jobs {
     display: flex;
     gap: 30px;
@@ -338,6 +338,41 @@ h3 {
       background-color: var(--yellow-400);
       padding: 30px;
       border-radius: 30px;
+
+      h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+      div {
+        font-weight: 300;
+        margin-bottom: 10px;
+        color: var(--base-800);
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+} */
+.work-experience {
+  .jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 30px;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr; /* stack on smaller screens */
+    }
+
+    article {
+      background-color: var(--yellow-400);
+      padding: 30px;
+      border-radius: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
 
       h3 {
         margin-top: 20px;
